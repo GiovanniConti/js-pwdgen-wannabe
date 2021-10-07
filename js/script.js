@@ -7,12 +7,14 @@ const userColor = prompt("Inserisci il tuo colore preferito");
 // alert(`la tua password è: ${usaerName}${userSurname}${userColor}21`);
 
 
-// alternative solution
+// alternative solutions
 
-const password = usaerName + userSurname + userColor + "21";
+// const password = usaerName + userSurname + userColor + "21";
 
 
 // alert(`La tua password è: ${password}`)
 
-alert("la password è: " + password)
+// alert("la password è: " + password)
+
+alert("La password è: " + usaerName + userSurname + userColor + "21")
 
