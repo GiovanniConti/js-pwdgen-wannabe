@@ -12,5 +12,7 @@ const userColor = prompt("Inserisci il tuo colore preferito");
 const password = usaerName + userSurname + userColor + "21";
 
 
-alert(`La tua password è: ${password}`)
+// alert(`La tua password è: ${password}`)
+
+alert("la password è: " + password)
 
